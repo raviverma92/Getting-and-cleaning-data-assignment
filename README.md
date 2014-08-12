@@ -80,7 +80,7 @@ tidy$activity_ID[tidy$activity_ID == 6] <- c("LAYING")
 ```
 This code creates a new tidy dataset with the mean values for every variable for each subject and activity.
 
-#saving new tide table
+#saving new tidy table
 ```{r}
 write.table(tidy, file = "C:/Users/ravi.verma/Desktop/tidy.txt" , row.names = FALSE)
 ```
