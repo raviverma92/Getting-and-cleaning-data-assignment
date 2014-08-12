@@ -1,0 +1,20 @@
+Data Tables - 
+1. activity - contains the descriptive values of every activity
+2. activity_test - contains the data for activity in the test folder.
+3. activity_train - contains the data for activity in the train folder.
+4. features - contains the features data provided to us.
+5. final - the data table required for question 2.
+6. mean - subset of final containing only mean data.
+7. readings - contains the total dataset (train and test) in an unordered fashion.
+8. final_readings - contains the total dataset(train and test) in an ordered fashion.
+9. readings_test - contains the readings for test folder.
+10. readings_train - contains the readings for train folder.
+11. std - subset of final containing only standard deviation data.
+12. subject_test - contains data for subjects in the test folder.
+13. subject_train - contains data for subjects in the train folder.
+14. test_final - contains the full dataset for test folder.
+15. train_final - contains the full dataset for train folder.
+
+The data was subsetted by the grep function.
+The data was re-organised by the aggregate function.
+the data was ordered first by the subjects and secondly by their activities.
